@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="../styles.css">
+  <script src="main.js" defer></script>
   <title>Entry</title>
 </head>
 
@@ -23,10 +24,22 @@
     <h1>Entry Page</h1>
   </header>
 
+  <!-- Form for adding a new entry -->
+  <form id="newEntryForm">
+    <label for="entryTitle">Heading:</label><br>
+    <input type="text" id="entryTitle" name="entryTitle" required><br>
+
+    <label for="entryContent">Content:</label><br>
+    <textarea id="entryContent" name="entryContent" rows="4" required></textarea><br>
+
+    <button type="submit">Submit</button>
+  </form>
+
   <!-- Footer -->
   <footer>
     <p>&copy; 2024 Encyclopedia</p>
   </footer>
+
 </body>
 
 </html>
