@@ -8,3 +8,50 @@
   font-weight: 300;
   margin-top: 50px;
 }
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 13%;
+  margin-bottom: -10px;
+}
+
+/* Add these styles to your existing home.css file or create a new one */
+
+/* Search container styles */
+#searchContainer {
+  display: flex;
+  align-items: center;
+}
+
+/* Search input styles */
+#searchInput {
+  padding: 8px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+/* Search button styles */
+#searchButton {
+  background-color: #dbecfa;
+  color: #000;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+} 
+
+/* Hover effect for the button */
+#searchButton:hover {
+  background-color: #95d8ff;
+}
+
+.highlight {
+  background-color: #86f0fe; /* Yellow background color */
+  color: #000; /* Black text color */
+  font-weight: bold;
+}
