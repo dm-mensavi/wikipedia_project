@@ -2,17 +2,23 @@
 
 document.addEventListener('DOMContentLoaded', function () {
   const newEntryForm = document.getElementById('newEntryForm');
+  const entryList = document.getElementById('entryList');
 
-  // Handle form submission
   newEntryForm.addEventListener('submit', function (event) {
-      event.preventDefault(); // Prevent the default form submission behavior
+      event.preventDefault();
 
-      const title = encodeURIComponent(document.getElementById('entryTitle').value);
-      const content = encodeURIComponent(document.getElementById('entryContent').value);
+      // Get values from the form
+      const entryTitle = document.getElementById('entryTitle').value;
+      const entryContent = document.getElementById('entryContent').value;
 
-      if (title && content) {
-          // Redirect to the home page with URL parameters
-          window.location.href = `../index.html?title=${title}&content=${content}`;
-      }
+      // Create a new entry element
+      const newEntry = document.createElement('article');
+      newEntry.innerHTML = `<h2>${entryTitle}</h2><p>${entryContent}</p>`;
+
+      // Add the new entry to the entry list
+      entryList.insertBefore(newEntry, entryList.firstChild);
+
+      // Reset the form
+      newEntryForm.reset();
   });
 });

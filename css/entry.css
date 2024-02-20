@@ -1,0 +1,92 @@
+/* styles.css */
+
+/* ... (previous styles) */
+
+form {
+  display: flex;
+  width: 60vw;
+  margin: 20px auto;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  border: 2px solid #ddd; /* Border color */
+  padding: 20px;
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle lift */
+}
+
+label {
+  margin-bottom: 8px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+  border: 1px solid #ccc; /* Input border color */
+  border-radius: 4px; /* Rounded corners */
+}
+
+button {
+  background-color: #96d798; /* Button color */
+  color: #fff; /* Text color */
+  padding: 12px;
+  border: none;
+  border-radius: 4px; /* Rounded corners */
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049; /* Darker button color on hover */
+}
+
+
+.new-entry {
+  margin: 20px auto;
+  text-align: center;
+  width: 60vw;
+
+}
+
+/* styles.css */
+
+/* ... (previous styles) */
+
+/* Styles for both home and new entries */
+#entryList {
+  list-style: none;
+  padding: 0;
+}
+
+/* Style for individual entry */
+.entry {
+  background-color: #f5f5f5;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle lift */
+}
+
+.entry h3 {
+  color: #4285f4;
+  margin-bottom: 10px;
+}
+
+.entry p {
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.entry a {
+  color: #4285f4;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.entry a:hover {
+  color: #1a73e8;
+}

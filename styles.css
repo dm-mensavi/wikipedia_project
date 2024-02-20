@@ -85,3 +85,18 @@ h2 {
 p {
   color: #333;
 }
+
+/* styles.css */
+
+/* ... (previous styles) */
+
+#successMessage {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
