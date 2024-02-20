@@ -1,0 +1,10 @@
+.welcome {
+  font-size: 1.4em;
+  margin: 0;
+  padding: 3px;
+  padding-bottom: 20px;
+  text-align: left;
+  color: #333;
+  font-weight: 300;
+  margin-top: 50px;
+}
