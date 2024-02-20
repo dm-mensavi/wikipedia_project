@@ -17,7 +17,8 @@ document.addEventListener("DOMContentLoaded", function () {
 			content
 		)}</p><br></h2><p>${decodeURIComponent(
 			content
-		)}</p><br></h2><p>${decodeURIComponent(content)}</p>`;
+		)}</p><br></h2><p>${decodeURIComponent(content)}</p>
+    <button id="editButton" >Edit</button>`;
 		articleDetails.appendChild(articleElement);
 	}
 });
