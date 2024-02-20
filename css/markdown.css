@@ -1,0 +1,31 @@
+
+div {
+  margin: 20px;
+}
+
+textarea {
+  width: 70vw;
+  padding: 10px;
+  display: block;
+  margin: 10px auto;
+}
+
+button {
+  background-color: #4285f4;
+  color: #fff;
+  padding: 10px;
+  cursor: pointer;
+  border: none;
+  display: block;
+  margin: 10px auto;
+}
+
+button:hover {
+  background-color: #4285f4;
+}
+
+#htmlOutput {
+  border: 1px solid #ddd;
+  padding: 10px;
+  background-color: #fff;
+}

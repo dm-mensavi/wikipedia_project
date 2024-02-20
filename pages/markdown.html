@@ -5,7 +5,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="../styles.css">
+  <link rel="stylesheet" href="../css/markdown.css">
   <title>Markdown</title>
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script src="../js/markdown.js" defer></script>
 </head>
 
 <body>
@@ -13,7 +16,6 @@
     <ul>
       <li><a href="../">Home</a></li>
       <li><a href="../pages/entry.html">Entry</a></li>
-      <li><a href="../pages/search.html">Search</a></li>
       <li><a href="../pages/new.html">New Page</a></li>
       <li><a href="../pages/edit.html">Edit Page</a></li>
       <li><a href="../pages/random.html">Random Page</a></li>
@@ -23,6 +25,13 @@
   <header>
     <h1>Markdown</h1>
   </header>
+
+  <div>
+    <textarea id="markdownInput" rows="10" cols="50"></textarea>
+    <button onclick="convertMarkdownToHTML()">Convert</button>
+  </div>
+
+  <div id="htmlOutput"></div>
 
   <!-- Footer -->
   <footer>
