@@ -101,3 +101,22 @@ p {
 .hidden {
   display: none;
 }
+
+button {
+  padding: 10px;
+  color: blue;
+  font-size: 16px;
+  cursor: pointer;  
+}
+
+/* Style the "Save Changes" button specifically */
+#editForm button {
+  background-color: #286cb4; /* Green background color */
+  color: #fff; /* White text color */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Add some border-radius for a rounded look */
+}
+
+#editForm button:hover {
+  background-color: #45a049; /* Darker green color on hover */
+}
