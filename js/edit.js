@@ -47,8 +47,6 @@ function saveChanges(oldTitle, oldContent) {
 }
 
 function updateArticle(oldTitle, oldContent, newTitle, newContent) {
-  // Replace this with the actual logic to update the global array or data storage
-  // For example, if 'articles' is your global array, you can do:
   const index = articles.findIndex(
     (article) => article.title === decodeURIComponent(oldTitle)
   );
